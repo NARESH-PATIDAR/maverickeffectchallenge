@@ -17,18 +17,20 @@ This project demonstrates a basic AI-driven traffic management system using Pyth
    cd smart_traffic_management
 
 2. Install the required packages:
+   ```bash
    pip install -r app/requirements.txt
 
-3. Train the traffic model:
+4. Train the traffic model:
+   ```bash
    python models/traffic_model.py
 
-4. Run the traffic signal adjustment system:
+6. Run the traffic signal adjustment system:
    python models/traffic_signal.py
 
-5. Run the Flask application:
+7. Run the Flask application:
    python app/app.py
 
-6. Use the API endpoints:
+8. Use the API endpoints:
   Predict Traffic Congestion:
   GET /predict_traffic?hour=<hour>&day_of_week=<day_of_week>&weather=<weather>
 
