@@ -1,0 +1,5 @@
+hour,day_of_week,weather,congestion_level
+8,1,Clear,5
+9,1,Rainy,7
+17,5,Clear,8
+18,5,Foggy,9
