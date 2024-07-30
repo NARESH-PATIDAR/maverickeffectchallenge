@@ -33,10 +33,15 @@ This project demonstrates a basic AI-driven traffic management system using Pyth
    python app/app.py
 
 8. Use the API endpoints:
-  Predict Traffic Congestion:
-  ```bash
- GET /predict_traffic?hour=<hour>&day_of_week=<day_of_week>&weather=<weather>```
+   ## API Endpoints
 
- Calculate Dynamic Toll Price
-  ```bash
-   GET /calculate_toll?base_price=<base_price>&congestion_level=<congestion_level>```
+### Predict Traffic Congestion
+
+```bash
+GET /predict_traffic?hour=<hour>&day_of_week=<day_of_week>&weather=<weather>
+
+
+Calculate Dynamic Toll Price
+
+GET /calculate_toll?base_price=<base_price>&congestion_level=<congestion_level>
+
