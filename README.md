@@ -25,14 +25,18 @@ This project demonstrates a basic AI-driven traffic management system using Pyth
    python models/traffic_model.py
 
 6. Run the traffic signal adjustment system:
+   ```bash
    python models/traffic_signal.py
 
 7. Run the Flask application:
+   ```bash
    python app/app.py
 
 8. Use the API endpoints:
   Predict Traffic Congestion:
-  GET /predict_traffic?hour=<hour>&day_of_week=<day_of_week>&weather=<weather>
+  ```bash
+ GET /predict_traffic?hour=<hour>&day_of_week=<day_of_week>&weather=<weather>
 
   Calculate Dynamic Toll Price
-  GET /calculate_toll?base_price=<base_price>&congestion_level=<congestion_level>
+  ```bash
+GET /calculate_toll?base_price=<base_price>&congestion_level=<congestion_level>
